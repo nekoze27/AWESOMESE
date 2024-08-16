@@ -1,0 +1,31 @@
+/* index.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.fruit-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  padding: 16px;
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
