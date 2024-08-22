@@ -1,3 +1,8 @@
+<?php
+
+echo "最小値を入力してください: ";
+$min = intval(trim(fgets(STDIN)));
+
 echo "最大値を入力してください: ";
 $max = intval(trim(fgets(STDIN)));
 
